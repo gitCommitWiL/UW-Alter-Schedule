@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "UW Alter Schedule Creator",
+  "version": "1",
+  "description": "Create a schedule from the other sections of your lectures; in case you ever miss your own",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["https://info.uwaterloo.ca/cgi-bin/cgiwrap/infocour/salook.pl?sess=*"],
+  "content_scripts": [
+    {
+      "matches": ["https://quest.pecs.uwaterloo.ca/*"],     
+      "all_frames": true,
+      "js": ["main.js"]
+    }
+  ]
+}
