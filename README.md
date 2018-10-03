@@ -1,4 +1,4 @@
-# UW-Alter-Schedule Creator
+# uWaterloo Alter Schedule Creator
 Create a schedule from the other sections of your lectures; in case you ever miss your own.
 
 If you've ever missed a lecture, you've probably tried attending another section to make up. If you happen to miss a lot of lectures, why not create a calendar to see all your other options?
